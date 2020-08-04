@@ -24,7 +24,12 @@ public class Driver {
        Passenger passenger2 = new Passenger("Wilma", 0,1);
        Passenger passenger3 = new Passenger("Barney", 8500,2);
        Passenger passenger4 = new Passenger("Betty", 4500,1);
-       
+
+       String sbv = "1245";
+       System.out.println(sbv.substring(0,2));
+       System.out.println(sbv.substring(2,4));
+
+
        Airport airport = new Airport();
        airport.checkIn(passenger1);
        airport.checkIn(passenger2);
